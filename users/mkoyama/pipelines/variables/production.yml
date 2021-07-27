@@ -1,0 +1,18 @@
+variables:
+  - template: common.yml  
+  - name: Environment
+    value: 'Production'
+  - name: rgName
+    value: 'rg-mkoyama-prod-001'
+  - name: locationName
+    value: 'West US 2'
+  - name: 'appInsightsName'
+    value: 'appi-mkoyama-prod-001'
+  - name: 'kvName'
+    value: 'kv-mkoyama-prod-001'
+  - name: storageName
+    value: 'stmkoyamaprod001'
+  - name: workspaceName
+    value: 'work-mkoyama-prod-001'
+  - name: cognitiveServicesName
+    value: 'cog-mkoyama-prod-001'

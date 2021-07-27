@@ -1,0 +1,18 @@
+variables:
+  - template: common.yml  
+  - name: Environment
+    value: 'Production'
+  - name: rgName
+    value: 'rg-lpaz-prod-001'
+  - name: locationName
+    value: 'West US 2'
+  - name: 'appInsightsName'
+    value: 'appi-lpaz-prod-001'
+  - name: 'kvName'
+    value: 'kv-lpaz-prod-001'
+  - name: storageName
+    value: 'stlpazprod001'
+  - name: workspaceName
+    value: 'work-lpaz-prod-001'
+  - name: cognitiveServicesName
+    value: 'cog-lpaz-prod-001'
