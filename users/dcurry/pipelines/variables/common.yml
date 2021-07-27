@@ -6,11 +6,11 @@ variables:
   - name: artifactsPath
     value: '$(Build.ArtifactStagingDirectory)'
   - name: pipelinesPath
-    value: '$(System.DefaultWorkingDirectory)/pipelines'
+    value: '$(System.DefaultWorkingDirectory)/users/dcurry/pipelines'
   - name: infrastructurePath
-    value: '$(System.DefaultWorkingDirectory)/infrastructure'
+    value: '$(System.DefaultWorkingDirectory)/users/dcurry/infrastructure'
   - name: srcPath
-    value: '$(System.DefaultWorkingDirectory)/src'
+    value: '$(System.DefaultWorkingDirectory)/users/dcurry/src'
   - name: buildConfiguration
     value: 'Release'
   - name: MSBUILDSINGLELOADCONTEXT

@@ -28,7 +28,7 @@ stages:
         steps:
           - template: steps/lz-steps.yml
             parameters:
-              armPath: 'infrastructure'
+              armPath: '$(infrastructurePath)'
 
   - stage: production
     variables:
@@ -38,4 +38,4 @@ stages:
         steps:
           - template: steps/lz-steps.yml
             parameters:
-              armPath: 'infrastructure'
+              armPath: '$(infrastructurePath)'
