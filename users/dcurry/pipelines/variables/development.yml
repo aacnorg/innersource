@@ -1,0 +1,18 @@
+variables:
+  - template: common.yml  
+  - name: Environment
+    value: 'Development'
+  - name: rgName
+    value: 'rg-dcurry-dev-001'
+  - name: locationName
+    value: 'West US 2'
+  - name: 'appInsightsName'
+    value: 'appi-dcurry-dev-001'
+  - name: 'kvName'
+    value: 'kv-dcurry-dev-001'
+  - name: storageName
+    value: 'stdcurrydev001'
+  - name: workspaceName
+    value: 'work-dcurry-dev-001'
+  - name: cognitiveServicesName
+    value: 'cog-dcurry-dev-001'

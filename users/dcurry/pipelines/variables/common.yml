@@ -1,0 +1,17 @@
+variables:
+  - name: subscriptionId
+    value: '7450cde4-9c2b-4b3c-9356-7a5951d14dab'
+  - name: subscriptionName
+    value: 'aacn-users-innersource-001'
+  - name: artifactsPath
+    value: '$(Build.ArtifactStagingDirectory)'
+  - name: pipelinesPath
+    value: '$(System.DefaultWorkingDirectory)/pipelines'
+  - name: infrastructurePath
+    value: '$(System.DefaultWorkingDirectory)/infrastructure'
+  - name: srcPath
+    value: '$(System.DefaultWorkingDirectory)/src'
+  - name: buildConfiguration
+    value: 'Release'
+  - name: MSBUILDSINGLELOADCONTEXT
+    value: 1
