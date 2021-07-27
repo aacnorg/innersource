@@ -1,0 +1,18 @@
+variables:
+  - template: common.yml  
+  - name: Environment
+    value: 'Development'
+  - name: rgName
+    value: 'rg-jmassick-dev-001'
+  - name: locationName
+    value: 'West US 2'
+  - name: 'appInsightsName'
+    value: 'appi-jmassick-dev-001'
+  - name: 'kvName'
+    value: 'kv-jmassick-dev-001'
+  - name: storageName
+    value: 'stjmassickdev001'
+  - name: workspaceName
+    value: 'work-jmassick-dev-001'
+  - name: cognitiveServicesName
+    value: 'cog-jmassick-dev-001'
